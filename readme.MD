@@ -11,32 +11,27 @@ A simple web app built with Streamlit that extracts **5 dominant colors** from a
    python -m venv env
    source env/bin/activate   # Linux/macOS
    env\Scripts\activate      # Windows
-Install dependencies:
 
-bash
-Copy
-pip install -r requirements.txt
-Run the app:
+3.Install dependencies:
 
-bash
-Copy
-streamlit run app.py
-Upload an image and see the dominant color palette displayed.
+    ```bash
+    Copy
+    pip install -r requirements.txt
+    Run the app:
+
+    ```bash
+    Copy
+    streamlit run app.py
+    Upload an image and see the dominant color palette displayed.
 
 File Structure
-app.py — Streamlit UI for uploading image and displaying colors
-
-color_model.py — clustering functions and color helpers
-
-requirements.txt — list of Python dependencies
+-app.py — Streamlit UI for uploading image and displaying colors
+-color_model.py — clustering functions and color helpers
+-requirements.txt — list of Python dependencies
 
 Technologies Used
-Python 3.x
-
-Streamlit
-
-scikit-learn (KMeans)
-
-Pillow
-
-NumPy
+-Python 3.x
+-Streamlit
+-scikit-learn (KMeans)
+-Pillow
+-NumPy
