@@ -19,7 +19,7 @@ A simple web app built with Streamlit that extracts **5 dominant colors** from a
     pip install -r requirements.txt
     Run the app:
 
-    ```bash
+    Bash
     Copy
     streamlit run app.py
     Upload an image and see the dominant color palette displayed.
