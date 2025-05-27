@@ -15,13 +15,11 @@ A simple web app built with Streamlit that extracts **5 dominant colors** from a
 3. Install dependencies:
 
     ```bash
-    Copy
     pip install -r requirements.txt
     Run the app:
 
 4. Run the app
     ```bash
-    Copy
     streamlit run app.py
 
 Upload an image and see the dominant color palette displayed.
