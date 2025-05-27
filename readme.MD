@@ -12,7 +12,7 @@ A simple web app built with Streamlit that extracts **5 dominant colors** from a
    source env/bin/activate   # Linux/macOS
    env\Scripts\activate      # Windows
 
-3.Install dependencies:
+3. Install dependencies:
 
     ```bash
     Copy
